@@ -1,0 +1,252 @@
+/*
+*****************************************************************************
+Title: CSS For Final Project
+Use: Week 4 Lab
+Author: Jackson Nugent
+School/Term: Southern Illinois University, Spring 2023
+Developed: May 5th 2023.
+Tested: . Tested on Chrome
+******************************************************************************
+*/
+
+
+
+/* Navigation menu */
+#nav_menu ul {
+    color: white;
+    list-style-type: none;
+    padding: 1%;
+    margin: 0;
+    text-align: center;
+    border-bottom: .5em solid gray;
+    font-family: "Oswald", sans-serif;
+    background-color: seagreen;
+    width: 100%;
+}
+
+#nav_menu ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+#nav_menu ul li a {
+    font-weight: bolder;
+    color: darkslategray;
+}
+
+#nav_menu ul li a.current {
+    text-decoration: none;
+}
+
+
+body {
+    background-color: dimgray;
+    margin: 0;
+}
+
+body#index {
+    background-image: url("outdoorpic.jpg")
+}
+
+body#index  h1{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 72px;
+}
+
+body#index p{
+    padding-top: 100px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.Tent_Sale {
+    margin: 0 auto;
+    padding-top: 200px !important;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 20px !important;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+body#campingsupplies h1{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+body#campingsupplies {
+    background-image: url("campingsupplies.jpg");
+    background-size: cover;
+}
+
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+
+#camp-table {
+    width: 100%;
+    table-layout: fixed;
+    font-family: "Oswald", sans-serif;
+    color: white
+   
+}
+#camp-table th {
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+#camp-table th,
+#camp-table td {
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    padding: 10px;
+    text-align: center;
+}
+
+#camp-table img {
+    width: 100px;
+    height: 75px;
+}
+
+
+body#outdoorwear h1{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+#wear-table {
+    width: 100%;
+    table-layout: fixed;
+    font-family: "Oswald", sans-serif;
+    color: black;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#wear-table th,
+#wear-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+#wear-table img {
+    width: 100px;
+    height: 75px;
+}
+
+footer {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+body#extramats  h1{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+
+body#outdoorwear {
+    background-image: url("outdoorwearpic.jpg");
+    background-size: cover;
+}
+
+#extra-table {
+    width: 100%;
+    table-layout: fixed;
+    font-family: "Oswald", sans-serif;
+    color: white
+}
+#extra-table th {
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+#extra-table th,
+#extra-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+#extra-table img {
+    width: 100px;
+    height: 75px;
+}
+
+body#aboutus h1{
+     font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+body#aboutus {
+    background-image: url("naturepic.jpg");
+    background-size: cover;
+}
+
+.gray-box {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    background-color: gray;
+    padding: 20px;
+    border: 1px solid black;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.contact {
+    padding-bottom: 100px !important;
+}
+
+body#contactus h1{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form label, form select {
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+form input, form textarea {
+    font-family: "Oswald", sans-serif;
+    color: black;
+}
+
+body#response h1 {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
